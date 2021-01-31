@@ -106,13 +106,7 @@ body {
     }
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
+
 
 .photo {
     position: absolute;
@@ -123,5 +117,26 @@ body {
         border-radius: 50%;
         width: 100px;
         height: 100px;
+    }
+}
+
+
+.attribution {
+    
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    p{
+        color: $Dark_grayish_blue;
+        font-weight: 400;
+        font-size: 11px;
+        a {
+            font-size: 11px;
+            font-weight: 400;
+            color: hsl(228, 45%, 44%);
+        }
     }
 }
